@@ -1,0 +1,25 @@
+{
+  "name": "webhook",
+  "version": "1.0.0",
+  "description": "testing Github webhooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimonLab/webhook.git"
+  },
+  "author": "SimonLab <simon@foundersandcoders.com> (https://github.com/SimonLab)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SimonLab/webhook/issues"
+  },
+  "homepage": "https://github.com/SimonLab/webhook#readme",
+  "dependencies": {
+    "hapi": "^16.1.0",
+    "hoek": "^4.1.0",
+    "sinatra": "0.0.5"
+  }
+}
